@@ -1,9 +1,6 @@
 name: 'Testing Github Actions'
 
 on: [push]
-
-workflow_dispatch:
-
 jobs:
   Cloudformation-checker:
     name: Check linting and security concerns
