@@ -4,7 +4,7 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: landing-bucket-example
- # TestQueue:
- #   Type: AWS::SQS::Queue
- #   Properties:
- #     QueueName: my-queue-example 
+  TestQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: my-queue-example 
