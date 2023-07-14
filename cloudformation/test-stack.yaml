@@ -7,4 +7,4 @@ Resources:
   TestQueue:
     Type: AWS::SQS::Queue
     Properties:
-      QueueName: my-queue-example 
+      QueueName: my-queue-example
