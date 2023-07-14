@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Resources:
-  LandingBucket:
-    Type: AWS::S3::Bucket
-    Properties:
-      BucketName: landing-bucket-example
+ # LandingBucket:
+ #   Type: AWS::S3::Bucket
+ #   Properties:
+ #     BucketName: landing-bucket-example
   TestQueue:
     Type: AWS::SQS::Queue
     Properties:
