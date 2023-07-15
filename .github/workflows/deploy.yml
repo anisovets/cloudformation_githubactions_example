@@ -23,6 +23,6 @@ jobs:
       - name: Deploy to AWS CloudFormation
         uses: aws-actions/aws-cloudformation-github-deploy@v1
         with:
-          name: test-stack
+          name: file-processing-stack
           template: cloudformation/test-stack.yaml
-          no-fail-on-empty-changeset: "1"
+          no-fail-on-empty-changeset: "1" 
